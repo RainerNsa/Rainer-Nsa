@@ -151,7 +151,7 @@ import {
       company_name: "Mahshel Soft Limited",
       icon: meta,
       iconBg: "#383E56",
-      date: "Sept 2024 - Dec 2025",
+      date: "Sept 2024 - Dec 2024",
       points: [
         "Directed multiple web development projects from initial client briefing to final deployment.",
         "Implemented a new administration panel for a purchasing agent business, boosting customer service efficiency by 90% and reducing operational overhead by 25%.",
