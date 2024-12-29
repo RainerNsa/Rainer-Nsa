@@ -221,7 +221,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/Woldreamz/Krypto.git",
+      source_code_link: "https://kryptoinc.vercel.app/",
     },
     {
       name: "House Hunter",
@@ -242,7 +242,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/Woldreamz/HouseHunter",
+      source_code_link: "https://househunters-ebon.vercel.app/",
     },
     {
       name: "Cerebro",
@@ -263,7 +263,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/Woldreamz/Cerebro.git",
+      source_code_link: "https://cerebroai.vercel.app/",
     },
   ];
   
