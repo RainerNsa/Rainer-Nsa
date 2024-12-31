@@ -134,7 +134,7 @@ import {
       ],
     },
     {
-      title: "Senior Front Developer",
+      title: "Senior Front End Developer",
       company_name: "Infinity Health Africa",
       icon: tesla,
       iconBg: "#383E56",
