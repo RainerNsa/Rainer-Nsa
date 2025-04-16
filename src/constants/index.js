@@ -125,7 +125,7 @@ import {
       company_name: "Woldreamz Inc",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "Jan 2018 - Aug 2024",
+      date: "Jan 2018 - Aug 2022 ",
       points: [
         "Developed and maintained web applications using React.js, TypeScript, and Python for various internal and external projects.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -138,7 +138,7 @@ import {
       company_name: "Infinity Health Africa",
       icon: tesla,
       iconBg: "#383E56",
-      date: "Sept 2024 - Nov 2024",
+      date: "Sept 2022 - Nov 2024",
       points: [
         "Build reusable and component-based user interfaces using React.js library.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
