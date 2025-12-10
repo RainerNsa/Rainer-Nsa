@@ -59,7 +59,7 @@ import {
       icon: backend,
     },
     {
-      title: "Project Manager",
+      title: "Product Manager",
       icon: creator,
     },
   ];
@@ -125,7 +125,7 @@ import {
       company_name: "Woldreamz Inc",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "Jan 2018 - Aug 2022 ",
+      date: "Jan 2018 - Jan 2022 ",
       points: [
         "Developed and maintained web applications using React.js, TypeScript, and Python for various internal and external projects.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -147,29 +147,29 @@ import {
       ],
     },
     {
-      title: "Senior Front End Developer",
-      company_name: "Mahshel Soft Limited",
-      icon: meta,
-      iconBg: "#383E56",
-      date: "Sept 2024 - Dec 2024",
-      points: [
-        "Directed multiple web development projects from initial client briefing to final deployment.",
-        "Implemented a new administration panel for a purchasing agent business, boosting customer service efficiency by 90% and reducing operational overhead by 25%.",
-        "Collaborated closely with stakeholders to translate business needs into technical requirements.",
-        "Collaborated with cross-functional teams to ensure alignment on project goals and timely delivery of key features.",
-      ],
-    },
-    {
       title: "Senior LLM Python + Node / React Engineer",
       company_name: "Turing Inc",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Sept 2024 - Present",
+      date: "Sept 2024 - Jul 2025",
       points: [
-        "Designed, trained and optimized large language models using Python for high accuracy and performance",
-        "Built and maintained RESTful/GraphQL APIs with Node.js for seamless LLM access and third-party integration.",
-        "Documented code, pipelines, and processes for future scalability and knowledge continuity.",
-        "Worked cross-functionally with data scientists, DevOps, and front-end developers to align on project goals and ensure scalability.",
+        "Developed scalable RESTful and GraphQL APIs using Node.js, reducing response times by 30% through optimized data structures and caching — enhancing system scalability and user interaction speed.",
+        "Engineered and fine-tuned large language models (LLMs) in Python for content generation and data summarization, improving accuracy by 15% and reducing API errors by 20%, boosting client trust in AI-driven insights.",
+        "Collaborated closely with stakeholders to translate business needs into technical requirements.",
+        "Collaborated with cross-continental teams, translating technical specifications into production-grade systems that supported visualization-heavy, AI-integrated web apps.",
+      ],
+    },
+    {
+      title: "Senior Web Developer - AI Trainer",
+      company_name: "micro1 ",
+      icon: meta,
+      iconBg: "#383E56",
+      date: "Aug 2025 - Present",
+      points: [
+        "Supported the training and refinement of next generation AI models using expert level knowledge of full stack web development.",
+        "Evaluated model output for accuracy, quality, depth, and reasoning in areas such as JavaScript, React, Node.js, REST APIs, state management, system design, and debugging.",
+        "Created detailed grading reports for complex technical prompts, code review tasks, and architectural discussions, improving model reliability and performance.",
+        "Contributed domain expertise used to improve a world class AI model that supports millions of users globally.",
       ],
     },
   ];
@@ -194,18 +194,18 @@ import {
     {
       testimonial:
         "Following Rainer's optimization of our website, we witnessed a remarkable 50% surge in our traffic. Our gratitude towards him knows no bounds!",
-      name: "Lisa Wang",
-      designation: "Technical Director",
-      company: "Turing Inc",
+      name: "Nkem Nwankwo",
+      designation: "CTO",
+      company: "PhCityRent",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Krypto",
+      name: "Onboard",
       description:
-        "Web-based platform that allows users to engage with the crypto world, Using Web 3.0 methodologies, Solidity and Metamask producing a Web 3.0 Application - from start to finish.",
+        "Web-based platform that helps healthcare and life science businesses connect and comply with regulatory standards easily",
       tags: [
         {
           name: "nextjs",
@@ -221,12 +221,12 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://kryptoinc.vercel.app/",
+      source_code_link: "https://www.getonboard.africa/",
     },
     {
-      name: "House Hunter",
+      name: "Infinity Health Africa",
       description:
-        "Web application that enables users to search for houses & properties listed, view estimated sale/rent ranges for listings, and locate available houses based on their current location.",      
+        "A comprehensive suite of services aimed at addressing challenges faced by healthcare businesses across the continent.",      
       tags: [
         {
           name: "react",
@@ -237,17 +237,17 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://househunters-ebon.vercel.app/",
+      source_code_link: "https://www.infinityhealth.africa/",
     },
     {
       name: "Cerebro",
       description:
-        "A comprehensive versatile web application for the sale of software services to the general public. it presents an accessible platform for software solutions catering to diverse user needs.",
+        "A comprehensive versatile web application that presents an accessible platform for software solutions catering to diverse user needs.",
       tags: [
         {
           name: "nextjs",

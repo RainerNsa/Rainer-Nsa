@@ -21,10 +21,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./woldreamz-inc-favicon-color.png";
-import shopify from "./woldreamz-inc-favicon-color.png";
+import meta from "./micro1.png";
+import shopify from "./turing.png";
 import starbucks from "./woldreamz-inc-favicon-color.png";
-import tesla from "./woldreamz-inc-favicon-color.png";
+import tesla from "./inhealth-favicon.ico";
 
 import carrent from "./Gym.png";
 import jobit from "./Househunter.png";
