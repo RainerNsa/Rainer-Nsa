@@ -19,15 +19,15 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
           src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
+          alt="web-development"
+          className="w-16 h-16 object-contain"
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className="text-white text-[20px] font-bold text-center">
           {title}
         </h3>
       </div>
@@ -45,16 +45,17 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I&apos;m a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React,  Next.js, Three.js, Django and
-        Node.js. I&apos;m a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let&apos;s work together to bring your ideas to life!
+        I design and ship local-first platforms that earn user trust and scale
+        sustainably. I am Rainer Nsa, a Senior Full Stack Engineer focused on
+        solutions for emerging markets, with experience in healthtech, AI, and
+        local real estate ecosystems. I pair frontend systems design with
+        backend reliability and pragmatic AI to solve real problems where
+        infrastructure and trust matter most.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
