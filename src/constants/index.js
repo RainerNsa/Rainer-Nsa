@@ -140,10 +140,10 @@ import {
       iconBg: "#383E56",
       date: "Sept 2022 - Nov 2024",
       points: [
-        "Build reusable and component-based user interfaces using React.js library.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Integrate frontend components with backend services via RESTful APIs or GraphQL.",
-        "Conduct unit testing and participate in code reviews to ensure code quality and reliability.",
+        "Built reusable and component-based user interfaces using React.js library.",
+        "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Integrated frontend components with backend services via RESTful APIs or GraphQL.",
+        "Conducted unit testing and participated in code reviews to ensure code quality and reliability.",
       ],
     },
     {
