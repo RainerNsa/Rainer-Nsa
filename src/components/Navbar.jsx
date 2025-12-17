@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
+import { cvUrl, navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
@@ -49,19 +49,29 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
-            >
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
-          ))}
-        </ul>
+        <div className='list-none hidden sm:flex items-center gap-6'>
+          <ul className='flex flex-row gap-10'>
+            {navLinks.map((nav) => (
+              <li
+                key={nav.id}
+                className={`${
+                  active === nav.title ? "text-white" : "text-secondary"
+                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                onClick={() => setActive(nav.title)}
+              >
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              </li>
+            ))}
+          </ul>
+
+          <a
+            href={cvUrl}
+            download
+            className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer'
+          >
+            Download CV
+          </a>
+        </div>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
@@ -91,6 +101,16 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li className='w-full'>
+                <a
+                  href={cvUrl}
+                  download
+                  onClick={() => setToggle(false)}
+                  className='font-poppins font-medium cursor-pointer text-[16px] text-secondary hover:text-white'
+                >
+                  Download CV
+                </a>
+              </li>
             </ul>
           </div>
         </div>

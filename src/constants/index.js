@@ -29,6 +29,8 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+
+  export const cvUrl = "/rainer-nsa-cv.pdf";
   
   export const navLinks = [
     {
